@@ -1,0 +1,59 @@
+.logo
+{
+    max-width: 20%;
+    height: auto;
+}
+
+.index_img
+{
+    width: 200px;
+    height: auto;
+}
+
+.center_img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: red;
+}
+
+.right
+{
+    float: right;
+}
+
+body
+{
+    background-image: url("images/wp2057491-scp-wallpapers.png")
+}
+
+@media only screen and (max-device-width: 600px)
+{
+    body
+{
+    background-image: url("images/wp2057491-scp-wallpapers.png" );
+    height: auto;
+    max-width: 100%;
+    
+
+}
+}
+
+@media only screen and (max-device-width: 1000px)
+{
+    img
+    {
+        height: auto;
+        max-width: 100%;
+    }
+}
